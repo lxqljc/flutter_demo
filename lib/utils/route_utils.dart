@@ -1,7 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_demo/chapter07/chapt07_page.dart';
 import 'package:flutter_demo/chapter07/custom_provider/provider_page.dart';
+import 'package:flutter_demo/chapter07/future_builder_page.dart';
 import 'package:flutter_demo/chapter07/inherited_widget_page.dart';
+import 'package:flutter_demo/chapter07/stream_builder_page.dart';
 import 'package:flutter_demo/chapter07/will_pop_scope_page.dart';
 
 /// User: xiaoquanluo
@@ -27,6 +29,10 @@ class RouteUtils {
             return const ProviderPage();
           case '/chapter07/ValueListenablePage':
             return const ProviderPage();
+          case '/chapter07/FutureBuilderPage':
+            return const FutureBuilderPage();
+          case '/chapter07/StreamBuilderPage':
+            return const StreamBuilderPage();
         }
         return const SizedBox.shrink();
       }),
