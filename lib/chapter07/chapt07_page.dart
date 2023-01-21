@@ -21,9 +21,15 @@ class Chapt07Page extends StatelessWidget {
             case 'inheritedWidget':
               RouteUtils.push(name: '/chapter07/InheritedWidgetPage');
               break;
+            case 'ProviderPage':
+              RouteUtils.push(name: '/chapter07/ProviderPage');
+              break;
+            case 'ValueListenablePage':
+              RouteUtils.push(name: '/chapter07/ValueListenablePage');
+              break;
           }
         },
-        texts: const ['WillPopScope', 'inheritedWidget'],
+        texts: const ['WillPopScope', 'inheritedWidget', 'ProviderPage', 'ValueListenablePage'],
       ),
       title: '第七章',
     );

@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_demo/chapter07/chapt07_page.dart';
+import 'package:flutter_demo/chapter07/custom_provider/provider_page.dart';
 import 'package:flutter_demo/chapter07/inherited_widget_page.dart';
 import 'package:flutter_demo/chapter07/will_pop_scope_page.dart';
 
@@ -22,6 +23,10 @@ class RouteUtils {
             return const WillPopScopePage();
           case '/chapter07/InheritedWidgetPage':
             return const InheritedWidgetPage();
+          case '/chapter07/ProviderPage':
+            return const ProviderPage();
+          case '/chapter07/ValueListenablePage':
+            return const ProviderPage();
         }
         return const SizedBox.shrink();
       }),
