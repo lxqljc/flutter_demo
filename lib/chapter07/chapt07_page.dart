@@ -33,6 +33,12 @@ class Chapt07Page extends StatelessWidget {
               case 'StreamBuilderPage':
               RouteUtils.push(name: '/chapter07/StreamBuilderPage');
               break;
+            case 'AlertDialogPage':
+              RouteUtils.push(name: '/chapter07/AlertDialogPage');
+              break;case
+          'GeneralDialogPage':
+              RouteUtils.push(name: '/chapter07/GeneralDialogPage');
+              break;
           }
         },
         texts: const [
@@ -42,6 +48,8 @@ class Chapt07Page extends StatelessWidget {
           'ValueListenablePage',
           'FutureBuilderPage',
           'StreamBuilderPage',
+          'AlertDialogPage',
+          'GeneralDialogPage',
         ],
       ),
       title: '第七章',
