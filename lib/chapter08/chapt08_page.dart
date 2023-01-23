@@ -18,10 +18,30 @@ class Chapter08Page extends StatelessWidget {
             case 'ListenerPage':
               RouteUtils.push(name: '/chapter08/ListenerPage');
               break;
+            case 'ListenerPage2':
+              RouteUtils.push(name: '/chapter08/ListenerPage2');
+              break;
+            case 'GestureDetectorPage':
+              RouteUtils.push(name: '/chapter08/GestureDetectorPage');
+              break;
+            case 'DragPage':
+              RouteUtils.push(name: '/chapter08/DragPage');
+              break;
+            case 'DragVerticalPage':
+              RouteUtils.push(name: '/chapter08/DragVerticalPage');
+              break;
+            case 'DragScalePage':
+              RouteUtils.push(name: '/chapter08/DragScalePage');
+              break;
           }
         },
         texts: const [
           'ListenerPage',
+          'ListenerPage2',
+          'GestureDetectorPage',
+          'DragPage',
+          'DragVerticalPage',
+          'DragScalePage',
         ],
       ),
       title: '第八章',

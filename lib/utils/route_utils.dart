@@ -8,7 +8,12 @@ import 'package:flutter_demo/chapter07/inherited_widget_page.dart';
 import 'package:flutter_demo/chapter07/stream_builder_page.dart';
 import 'package:flutter_demo/chapter07/will_pop_scope_page.dart';
 import 'package:flutter_demo/chapter08/chapt08_page.dart';
+import 'package:flutter_demo/chapter08/drag_page.dart';
+import 'package:flutter_demo/chapter08/drag_scale_page.dart';
+import 'package:flutter_demo/chapter08/drag_vertical_page.dart';
+import 'package:flutter_demo/chapter08/gesture_detector_page.dart';
 import 'package:flutter_demo/chapter08/listener_page.dart';
+import 'package:flutter_demo/chapter08/listener_page2.dart';
 
 /// User: xiaoquanluo
 /// Date: 2023/1/20
@@ -45,6 +50,16 @@ class RouteUtils {
             return const GeneralDialogPage();
           case '/chapter08/ListenerPage':
             return const ListenerPage();
+          case '/chapter08/ListenerPage2':
+            return const ListenerPage2();
+          case '/chapter08/GestureDetectorPage':
+            return const GestureDetectorPage();
+          case '/chapter08/DragPage':
+            return const DragPage();
+          case '/chapter08/DragVerticalPage':
+            return const DragVerticalPage();
+          case '/chapter08/DragScalePage':
+            return const DragScalePage();
         }
         return const SizedBox.shrink();
       }),
