@@ -55,9 +55,12 @@ class _MyHomePageState extends State<MyHomePage> {
           case '第七章':
             RouteUtils.push(name: '/Chapt07Page');
             break;
+          case '第八章':
+            RouteUtils.push(name: '/Chapter08Page');
+            break;
         }
       },
-      texts: const <String>['第七章'],
+      texts: const <String>['第七章', '第八章'],
     );
   }
 }

@@ -7,6 +7,8 @@ import 'package:flutter_demo/chapter07/general_dialog_page.dart';
 import 'package:flutter_demo/chapter07/inherited_widget_page.dart';
 import 'package:flutter_demo/chapter07/stream_builder_page.dart';
 import 'package:flutter_demo/chapter07/will_pop_scope_page.dart';
+import 'package:flutter_demo/chapter08/chapt08_page.dart';
+import 'package:flutter_demo/chapter08/listener_page.dart';
 
 /// User: xiaoquanluo
 /// Date: 2023/1/20
@@ -23,6 +25,8 @@ class RouteUtils {
         switch (name) {
           case '/Chapt07Page':
             return const Chapt07Page();
+          case '/Chapter08Page':
+            return const Chapter08Page();
           case '/chapter07/WillPopScopePage':
             return const WillPopScopePage();
           case '/chapter07/InheritedWidgetPage':
@@ -39,6 +43,8 @@ class RouteUtils {
             return const AlertDialogPage();
           case '/chapter07/GeneralDialogPage':
             return const GeneralDialogPage();
+          case '/chapter08/ListenerPage':
+            return const ListenerPage();
         }
         return const SizedBox.shrink();
       }),
