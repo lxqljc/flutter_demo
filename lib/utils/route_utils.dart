@@ -12,6 +12,7 @@ import 'package:flutter_demo/chapter08/drag_page.dart';
 import 'package:flutter_demo/chapter08/drag_scale_page.dart';
 import 'package:flutter_demo/chapter08/drag_vertical_page.dart';
 import 'package:flutter_demo/chapter08/gesture_detector_page.dart';
+import 'package:flutter_demo/chapter08/gesture_recognizer_page.dart';
 import 'package:flutter_demo/chapter08/listener_page.dart';
 import 'package:flutter_demo/chapter08/listener_page2.dart';
 
@@ -60,6 +61,8 @@ class RouteUtils {
             return const DragVerticalPage();
           case '/chapter08/DragScalePage':
             return const DragScalePage();
+          case '/chapter08/GestureRecognizerPage':
+            return const GestureRecognizerPage();
         }
         return const SizedBox.shrink();
       }),

@@ -33,6 +33,9 @@ class Chapter08Page extends StatelessWidget {
             case 'DragScalePage':
               RouteUtils.push(name: '/chapter08/DragScalePage');
               break;
+            case 'GestureRecognizerPage':
+              RouteUtils.push(name: '/chapter08/GestureRecognizerPage');
+              break;
           }
         },
         texts: const [
@@ -42,6 +45,7 @@ class Chapter08Page extends StatelessWidget {
           'DragPage',
           'DragVerticalPage',
           'DragScalePage',
+          'GestureRecognizerPage',
         ],
       ),
       title: '第八章',
