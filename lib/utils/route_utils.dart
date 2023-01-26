@@ -11,10 +11,13 @@ import 'package:flutter_demo/chapter08/chapt08_page.dart';
 import 'package:flutter_demo/chapter08/drag_page.dart';
 import 'package:flutter_demo/chapter08/drag_scale_page.dart';
 import 'package:flutter_demo/chapter08/drag_vertical_page.dart';
+import 'package:flutter_demo/chapter08/event_bus/event_bus_page.dart';
 import 'package:flutter_demo/chapter08/gesture_detector_page.dart';
 import 'package:flutter_demo/chapter08/gesture_recognizer_page.dart';
 import 'package:flutter_demo/chapter08/listener_page.dart';
 import 'package:flutter_demo/chapter08/listener_page2.dart';
+import 'package:flutter_demo/chapter08/notification/notification_page.dart';
+import 'package:flutter_demo/chapter08/notification/notification_page2.dart';
 import 'package:flutter_demo/chapter08/pointer_down_listener_page.dart';
 
 /// User: xiaoquanluo
@@ -66,6 +69,12 @@ class RouteUtils {
             return const GestureRecognizerPage();
           case '/chapter08/PointerDownListenerPage':
             return const PointerDownListenerPage();
+          case '/chapter08/EventBusPage':
+            return const EventBusPage();
+          case '/chapter08/NotificationPage':
+            return const NotificationPage();
+          case '/chapter08/NotificationPage2':
+            return const NotificationPage2();
         }
         return const SizedBox.shrink();
       }),

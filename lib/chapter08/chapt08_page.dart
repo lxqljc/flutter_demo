@@ -36,8 +36,17 @@ class Chapter08Page extends StatelessWidget {
             case 'GestureRecognizerPage':
               RouteUtils.push(name: '/chapter08/GestureRecognizerPage');
               break;
-              case 'PointerDownListenerPage':
+            case 'PointerDownListenerPage':
               RouteUtils.push(name: '/chapter08/PointerDownListenerPage');
+              break;
+            case 'EventBusPage':
+              RouteUtils.push(name: '/chapter08/EventBusPage');
+              break;
+            case 'NotificationPage':
+              RouteUtils.push(name: '/chapter08/NotificationPage');
+              break;
+            case 'NotificationPage2':
+              RouteUtils.push(name: '/chapter08/NotificationPage2');
               break;
           }
         },
@@ -50,6 +59,9 @@ class Chapter08Page extends StatelessWidget {
           'DragScalePage',
           'GestureRecognizerPage',
           'PointerDownListenerPage',
+          'EventBusPage',
+          'NotificationPage',
+          'NotificationPage2',
         ],
       ),
       title: '第八章',
