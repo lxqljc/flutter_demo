@@ -36,6 +36,9 @@ class Chapter08Page extends StatelessWidget {
             case 'GestureRecognizerPage':
               RouteUtils.push(name: '/chapter08/GestureRecognizerPage');
               break;
+              case 'PointerDownListenerPage':
+              RouteUtils.push(name: '/chapter08/PointerDownListenerPage');
+              break;
           }
         },
         texts: const [
@@ -46,6 +49,7 @@ class Chapter08Page extends StatelessWidget {
           'DragVerticalPage',
           'DragScalePage',
           'GestureRecognizerPage',
+          'PointerDownListenerPage',
         ],
       ),
       title: '第八章',

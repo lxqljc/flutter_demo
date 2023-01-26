@@ -15,6 +15,7 @@ import 'package:flutter_demo/chapter08/gesture_detector_page.dart';
 import 'package:flutter_demo/chapter08/gesture_recognizer_page.dart';
 import 'package:flutter_demo/chapter08/listener_page.dart';
 import 'package:flutter_demo/chapter08/listener_page2.dart';
+import 'package:flutter_demo/chapter08/pointer_down_listener_page.dart';
 
 /// User: xiaoquanluo
 /// Date: 2023/1/20
@@ -63,6 +64,8 @@ class RouteUtils {
             return const DragScalePage();
           case '/chapter08/GestureRecognizerPage':
             return const GestureRecognizerPage();
+          case '/chapter08/PointerDownListenerPage':
+            return const PointerDownListenerPage();
         }
         return const SizedBox.shrink();
       }),
